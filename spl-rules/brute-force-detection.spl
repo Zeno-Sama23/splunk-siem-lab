@@ -1,0 +1,4 @@
+| index=main sourcetype=csv EventCode=4625
+| stats count by AccountName, IPAddress
+| where count >= 5
+| sort -count
