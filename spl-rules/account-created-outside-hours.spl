@@ -1,0 +1,4 @@
+index=main sourcetype=csv EventCode=4720
+| eval Hour=tonumber(strftime(strptime(TimeGenerated,"%Y-%m-%d %H:%M:%S"),"%H"))
+| where Hour<=7 OR Hour>=20
+| table TimeGenerated, AccountName, IPAddress, Computer, Hour
