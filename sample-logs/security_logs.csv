@@ -1,0 +1,41 @@
+TimeGenerated,EventCode,EventDescription,AccountName,IPAddress,LogonType,Status,Computer
+2026-05-01 08:15:23,4625,An account failed to log on,john.doe,192.168.1.105,3,Failure,WORKSTATION01
+2026-05-01 08:15:25,4625,An account failed to log on,john.doe,192.168.1.105,3,Failure,WORKSTATION01
+2026-05-01 08:15:27,4625,An account failed to log on,john.doe,192.168.1.105,3,Failure,WORKSTATION01
+2026-05-01 08:15:29,4625,An account failed to log on,john.doe,192.168.1.105,3,Failure,WORKSTATION01
+2026-05-01 08:15:31,4625,An account failed to log on,john.doe,192.168.1.105,3,Failure,WORKSTATION01
+2026-05-01 08:15:33,4625,An account failed to log on,john.doe,192.168.1.105,3,Failure,WORKSTATION01
+2026-05-01 08:15:35,4625,An account failed to log on,john.doe,192.168.1.105,3,Failure,WORKSTATION01
+2026-05-01 08:16:00,4624,An account was successfully logged on,john.doe,192.168.1.105,3,Success,WORKSTATION01
+2026-05-01 02:30:00,4720,A user account was created,hacker.admin,10.0.0.99,0,Success,DC01
+2026-05-01 02:30:05,4732,A member was added to a security-enabled local group,hacker.admin,10.0.0.99,0,Success,DC01
+2026-05-01 02:30:10,4728,A member was added to a security-enabled global group,hacker.admin,10.0.0.99,0,Success,DC01
+2026-05-01 09:00:00,4624,An account was successfully logged on,admin,203.0.113.45,10,Success,DC01
+2026-05-01 09:00:05,4624,An account was successfully logged on,admin,198.51.100.23,10,Success,DC01
+2026-05-01 09:00:10,4672,Special privileges assigned to new logon,admin,203.0.113.45,0,Success,DC01
+2026-05-01 03:15:00,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:02,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:04,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:06,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:08,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:10,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:12,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:14,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:16,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 03:15:18,4625,An account failed to log on,administrator,185.220.101.50,3,Failure,DC01
+2026-05-01 10:00:00,4624,An account was successfully logged on,jane.smith,192.168.1.200,2,Success,WORKSTATION02
+2026-05-01 10:05:00,4674,An operation was attempted on a privileged object,jane.smith,192.168.1.200,0,Success,WORKSTATION02
+2026-05-01 10:10:00,4688,A new process has been created,jane.smith,192.168.1.200,0,Success,WORKSTATION02
+2026-05-01 11:00:00,4625,An account failed to log on,service.account,172.16.0.50,3,Failure,SERVER01
+2026-05-01 11:00:05,4625,An account failed to log on,service.account,172.16.0.50,3,Failure,SERVER01
+2026-05-01 11:00:10,4625,An account failed to log on,service.account,172.16.0.50,3,Failure,SERVER01
+2026-05-01 11:00:15,4625,An account failed to log on,service.account,172.16.0.50,3,Failure,SERVER01
+2026-05-01 11:00:20,4625,An account failed to log on,service.account,172.16.0.50,3,Failure,SERVER01
+2026-05-01 23:45:00,4720,A user account was created,backdoor.user,10.0.0.99,0,Success,DC01
+2026-05-01 23:45:10,4624,An account was successfully logged on,backdoor.user,45.33.32.156,3,Success,DC01
+2026-05-02 01:00:00,4625,An account failed to log on,admin,91.108.4.200,3,Failure,DC01
+2026-05-02 01:00:02,4625,An account failed to log on,admin,91.108.4.200,3,Failure,DC01
+2026-05-02 01:00:04,4625,An account failed to log on,admin,91.108.4.200,3,Failure,DC01
+2026-05-02 01:00:06,4625,An account failed to log on,admin,91.108.4.200,3,Failure,DC01
+2026-05-02 01:00:08,4625,An account failed to log on,admin,91.108.4.200,3,Failure,DC01
+2026-05-02 01:00:10,4625,An account failed to log on,admin,91.108.4.200,3,Failure,DC01
