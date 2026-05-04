@@ -1,0 +1,4 @@
+index=main sourcetype=csv EventCode=4624
+| stats dc(IPAddress) as UniqueIPs values(IPAddress) as IPList by AccountName
+| where UniqueIPs >= 2
+| table AccountName, UniqueIPs, IPList
