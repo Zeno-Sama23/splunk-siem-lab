@@ -1,0 +1,12 @@
+| SPL Rule: SSH Brute Force Detection
+| MITRE ATT&CK: T1110.001 - Brute Force: Password Spraying
+| Severity: High
+| Source: Real auth.log from Metasploitable2 VM (192.168.56.104)
+| Result: 55 failed attempts detected from 192.168.56.1
+
+index=lab sourcetype=linux_secure ("Invalid user" OR "Failed password")
+| rex "from (?<src_ip>\d+\.\d+\.\d+\.\d+)"
+| stats count by src_ip
+| where count > 5
+| sort -count
+| eval alert="SSH Brute Force Detected"

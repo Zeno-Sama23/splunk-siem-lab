@@ -1,0 +1,13 @@
+| SPL Rule: Successful Login After Multiple Failures
+| MITRE ATT&CK: T1078 - Valid Accounts
+| Severity: High
+| Source: Real auth.log from Metasploitable2 VM (192.168.56.104)
+| Result: 2 successful logins after 28 failures from 192.168.56.1
+
+index=lab sourcetype=linux_secure ("Failed password" OR "Invalid user" OR "Accepted password")
+| rex "from (?<src_ip>\d+\.\d+\.\d+\.\d+)"
+| rex "(?<status>Failed password|Invalid user|Accepted password)"
+| stats count(eval(status="Accepted password")) as successes,
+        count(eval(status!="Accepted password")) as failures by src_ip
+| where successes > 0 AND failures > 3
+| eval alert="Brute Force Success - Account Compromised"

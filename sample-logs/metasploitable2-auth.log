@@ -1,0 +1,104 @@
+May 11 15:14:10 metasploitable sshd[4060]: Server listening on :: port 22.
+May 11 15:14:10 metasploitable sshd[4060]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May 11 15:17:01 metasploitable CRON[4689]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 15:17:01 metasploitable CRON[4689]: pam_unix(cron:session): session closed for user root
+May 11 16:27:42 metasploitable sshd[4103]: Server listening on :: port 22.
+May 11 16:27:42 metasploitable sshd[4103]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May 11 16:39:01 metasploitable CRON[4749]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 16:39:02 metasploitable CRON[4749]: pam_unix(cron:session): session closed for user root
+May 11 19:56:42 metasploitable sshd[4116]: Server listening on :: port 22.
+May 11 19:56:42 metasploitable sshd[4116]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+May 11 19:57:18 metasploitable login[4641]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+May 11 19:58:32 metasploitable sshd[4886]: Bad protocol version identification '\026\003\001\005\246\001' from 192.168.56.1
+May 11 19:58:34 metasploitable sshd[4895]: Bad protocol version identification '\026\003\001\002' from 192.168.56.1
+May 11 19:58:34 metasploitable sshd[4899]: Bad protocol version identification '\026\003\001\002\335\001' from 192.168.56.1
+May 11 19:58:34 metasploitable sshd[4905]: Bad protocol version identification '\026\003\001' from 192.168.56.1
+May 11 19:58:37 metasploitable sshd[4933]: Bad protocol version identification '\026\003\001\002\335\001' from 192.168.56.1
+May 11 19:58:38 metasploitable sshd[4934]: Bad protocol version identification '\026\003\001' from 192.168.56.1
+May 11 19:58:38 metasploitable sshd[4940]: Bad protocol version identification '\026\003' from 192.168.56.1
+May 11 19:58:38 metasploitable sshd[4943]: Bad protocol version identification '\026\003\001\001\020\001' from 192.168.56.1
+May 11 19:58:39 metasploitable sshd[4935]: Did not receive identification string from 192.168.56.1
+May 11 19:58:39 metasploitable sshd[4953]: Bad protocol version identification '\026\003\001\002\335\001' from 192.168.56.1
+May 11 19:58:41 metasploitable sshd[4963]: Bad protocol version identification '\026\003' from 192.168.56.1
+May 11 19:58:46 metasploitable sshd[4978]: Did not receive identification string from 192.168.56.1
+May 11 19:58:54 metasploitable rlogind[5120]: Connection from 192.168.56.1 on illegal port
+May 11 19:59:38 metasploitable sshd[5416]: Invalid user  from 192.168.56.1
+May 11 19:59:38 metasploitable sshd[5416]: Failed none for invalid user  from 192.168.56.1 port 60544 ssh2
+May 11 19:59:38 metasploitable sshd[5419]: Protocol major versions differ for 192.168.56.1: SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1 vs. SSH-9.9-SSH-2.0-TenableRocks
+May 11 19:59:38 metasploitable sshd[5420]: Protocol major versions differ for 192.168.56.1: SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1 vs. SSH-1.33-SSH-2.0-TenableRocks
+May 11 19:59:38 metasploitable sshd[5425]: Protocol major versions differ for 192.168.56.1: SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1 vs. SSH-1.5-SSH-2.0-TenableRocks
+May 11 19:59:39 metasploitable sshd[5438]: Invalid user ${jndi from 192.168.56.1
+May 11 19:59:39 metasploitable sshd[5438]: Failed none for invalid user ${jndi from 192.168.56.1 port 54783 ssh2
+May 11 19:59:39 metasploitable sshd[5438]: pam_unix(sshd:auth): check pass; user unknown
+May 11 19:59:39 metasploitable sshd[5438]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.1 
+May 11 19:59:39 metasploitable rlogind[5443]: pam_rhosts_auth(rlogin:auth): user root has a `+' user entry
+May 11 19:59:39 metasploitable rlogind[5443]: pam_rhosts_auth(rlogin:auth): allowed to root@192.168.56.1 as root
+May 11 19:59:39 metasploitable login[5444]: pam_unix(login:session): session opened for user root by (uid=0)
+May 11 19:59:39 metasploitable login[5445]: ROOT LOGIN  on 'pts/1' from '192.168.56.1'
+May 11 19:59:41 metasploitable sshd[5438]: Failed password for invalid user ${jndi from 192.168.56.1 port 54783 ssh2
+May 11 19:59:42 metasploitable sshd[5462]: Did not receive identification string from 192.168.56.1
+May 11 20:00:01 metasploitable rlogind[5560]: Connection from 192.168.56.1 on illegal port
+May 11 20:00:10 metasploitable rlogind[5626]: pam_unix(rlogin:auth): bad username [-froot]
+May 11 20:00:10 metasploitable rlogind[5626]: PAM authentication failed for in.rlogind
+May 11 20:00:10 metasploitable rlogind[5627]: rlogin with an option as a name!
+May 11 20:00:20 metasploitable rlogind[5695]: Can't get peer name of remote host: Transport endpoint is not connected
+May 11 20:02:01 metasploitable CRON[5714]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 11 20:02:02 metasploitable CRON[5714]: pam_unix(cron:session): session closed for user root
+May 11 20:06:49 metasploitable sshd[5731]: Accepted password for msfadmin from 192.168.56.1 port 51908 ssh2
+May 11 20:06:49 metasploitable sshd[5733]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May 11 20:06:49 metasploitable sshd[5733]: subsystem request for sftp
+May 11 20:06:49 metasploitable sshd[5733]: Received disconnect from 192.168.56.1: 11: disconnected by user
+May 11 20:06:49 metasploitable sshd[5733]: pam_unix(sshd:session): session closed for user msfadmin
+May 11 20:07:04 metasploitable sshd[5736]: Invalid user admin from 192.168.56.1
+May 11 20:07:04 metasploitable sshd[5736]: Failed none for invalid user admin from 192.168.56.1 port 64740 ssh2
+May 11 20:07:04 metasploitable sshd[5738]: Invalid user admin from 192.168.56.1
+May 11 20:07:04 metasploitable sshd[5738]: Failed none for invalid user admin from 192.168.56.1 port 64741 ssh2
+May 11 20:07:04 metasploitable sshd[5740]: Invalid user admin from 192.168.56.1
+May 11 20:07:04 metasploitable sshd[5740]: Failed none for invalid user admin from 192.168.56.1 port 64743 ssh2
+May 11 20:07:04 metasploitable sshd[5742]: Invalid user admin from 192.168.56.1
+May 11 20:07:04 metasploitable sshd[5742]: Failed none for invalid user admin from 192.168.56.1 port 64744 ssh2
+May 11 20:07:05 metasploitable sshd[5744]: Invalid user admin from 192.168.56.1
+May 11 20:07:05 metasploitable sshd[5744]: Failed none for invalid user admin from 192.168.56.1 port 64745 ssh2
+May 11 20:07:05 metasploitable sshd[5756]: Invalid user administrator from 192.168.56.1
+May 11 20:07:05 metasploitable sshd[5756]: Failed none for invalid user administrator from 192.168.56.1 port 64756 ssh2
+May 11 20:07:05 metasploitable sshd[5758]: Invalid user administrator from 192.168.56.1
+May 11 20:07:05 metasploitable sshd[5758]: Failed none for invalid user administrator from 192.168.56.1 port 64761 ssh2
+May 11 20:07:06 metasploitable sshd[5760]: Invalid user administrator from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5760]: Failed none for invalid user administrator from 192.168.56.1 port 64766 ssh2
+May 11 20:07:06 metasploitable sshd[5762]: Invalid user administrator from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5762]: Failed none for invalid user administrator from 192.168.56.1 port 64775 ssh2
+May 11 20:07:06 metasploitable sshd[5764]: Invalid user administrator from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5764]: Failed none for invalid user administrator from 192.168.56.1 port 64776 ssh2
+May 11 20:07:06 metasploitable sshd[5766]: Invalid user test from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5766]: Failed none for invalid user test from 192.168.56.1 port 64779 ssh2
+May 11 20:07:06 metasploitable sshd[5768]: Invalid user test from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5768]: Failed none for invalid user test from 192.168.56.1 port 64783 ssh2
+May 11 20:07:06 metasploitable sshd[5770]: Invalid user test from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5770]: Failed none for invalid user test from 192.168.56.1 port 56420 ssh2
+May 11 20:07:06 metasploitable sshd[5772]: Invalid user test from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5772]: Failed none for invalid user test from 192.168.56.1 port 56421 ssh2
+May 11 20:07:06 metasploitable sshd[5774]: Invalid user test from 192.168.56.1
+May 11 20:07:06 metasploitable sshd[5774]: Failed none for invalid user test from 192.168.56.1 port 56422 ssh2
+May 11 20:07:07 metasploitable sshd[5786]: Invalid user guest from 192.168.56.1
+May 11 20:07:07 metasploitable sshd[5786]: Failed none for invalid user guest from 192.168.56.1 port 56433 ssh2
+May 11 20:07:07 metasploitable sshd[5788]: Invalid user guest from 192.168.56.1
+May 11 20:07:07 metasploitable sshd[5788]: Failed none for invalid user guest from 192.168.56.1 port 62546 ssh2
+May 11 20:07:08 metasploitable sshd[5790]: Invalid user guest from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5790]: Failed none for invalid user guest from 192.168.56.1 port 49300 ssh2
+May 11 20:07:08 metasploitable sshd[5792]: Invalid user guest from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5792]: Failed none for invalid user guest from 192.168.56.1 port 62194 ssh2
+May 11 20:07:08 metasploitable sshd[5794]: Invalid user guest from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5794]: Failed none for invalid user guest from 192.168.56.1 port 63578 ssh2
+May 11 20:07:08 metasploitable sshd[5796]: Invalid user oracle from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5796]: Failed none for invalid user oracle from 192.168.56.1 port 57276 ssh2
+May 11 20:07:08 metasploitable sshd[5798]: Invalid user oracle from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5798]: Failed none for invalid user oracle from 192.168.56.1 port 57277 ssh2
+May 11 20:07:08 metasploitable sshd[5800]: Invalid user oracle from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5800]: Failed none for invalid user oracle from 192.168.56.1 port 57278 ssh2
+May 11 20:07:08 metasploitable sshd[5802]: Invalid user oracle from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5802]: Failed none for invalid user oracle from 192.168.56.1 port 57279 ssh2
+May 11 20:07:08 metasploitable sshd[5804]: Invalid user oracle from 192.168.56.1
+May 11 20:07:08 metasploitable sshd[5804]: Failed none for invalid user oracle from 192.168.56.1 port 57280 ssh2
+May 11 20:07:13 metasploitable sshd[5826]: Accepted password for msfadmin from 192.168.56.1 port 57324 ssh2
+May 11 20:07:13 metasploitable sshd[5828]: pam_unix(sshd:session): session opened for user msfadmin by (uid=0)
+May 11 20:07:13 metasploitable sshd[5828]: subsystem request for sftp

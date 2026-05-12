@@ -1,0 +1,11 @@
+| SPL Rule: Account Enumeration / Discovery
+| MITRE ATT&CK: T1087 - Account Discovery
+| Severity: Medium
+| Source: Real auth.log from Metasploitable2 VM (192.168.56.104)
+| Result: admin, administrator, guest, oracle, test, user enumerated (5 attempts each)
+
+index=lab sourcetype=linux_secure "Invalid user"
+| rex "Invalid user (?<username>\w+) from"
+| stats count by username
+| sort -count
+| eval alert="Account Enumeration Detected"

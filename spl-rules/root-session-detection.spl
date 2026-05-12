@@ -1,0 +1,10 @@
+| SPL Rule: Root Session Opened
+| MITRE ATT&CK: T1548 - Abuse Elevation Control Mechanism
+| Severity: High
+| Source: Real auth.log from Metasploitable2 VM (192.168.56.104)
+| Result: 4 root sessions detected
+
+index=lab sourcetype=linux_secure "session opened for user root"
+| rex "(?<month>\w+)\s+(?<day>\d+)\s+(?<time>\S+) (?<host>\S+) (?<process>\S+): .*session opened for user (?<user>\w+)"
+| table _time, host, process, user
+| eval alert="Root Session Opened - Privilege Escalation"
